@@ -1,6 +1,6 @@
 #include "test/extensions/filters/http/ext_proc/test_processor.h"
 
-#include "envoy/service/ext_proc/v3alpha/external_processor.pb.h"
+#include "envoy/service/ext_proc/v3/external_processor.pb.h"
 
 #include "test/test_common/network_utility.h"
 

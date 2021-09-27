@@ -1,8 +1,8 @@
 #pragma once
 
 #include "envoy/config/core/v3/base.pb.h"
-#include "envoy/extensions/filters/http/ext_proc/v3alpha/ext_proc.pb.h"
-#include "envoy/service/ext_proc/v3alpha/external_processor.pb.h"
+#include "envoy/extensions/filters/http/ext_proc/v3/ext_proc.pb.h"
+#include "envoy/service/ext_proc/v3/external_processor.pb.h"
 #include "envoy/type/v3/http_status.pb.h"
 
 #include "source/common/common/thread.h"

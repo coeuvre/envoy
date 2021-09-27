@@ -7,7 +7,7 @@ Admission Control
 
   The admission control filter is experimental and is currently under active development.
 
-See the :ref:`v3 API reference <envoy_v3_api_msg_extensions.filters.http.admission_control.v3alpha.AdmissionControl>` for details on each configuration parameter.
+See the :ref:`v3 API reference <envoy_v3_api_msg_extensions.filters.http.admission_control.v3.AdmissionControl>` for details on each configuration parameter.
 
 Overview
 --------
@@ -56,11 +56,11 @@ Note that there are additional parameters that affect the rejection probability:
    Health check traffic does not count towards any of the filter's measurements.
 
 See the :ref:`v3 API reference
-<envoy_v3_api_msg_extensions.filters.http.admission_control.v3alpha.AdmissionControl>` for more
+<envoy_v3_api_msg_extensions.filters.http.admission_control.v3.AdmissionControl>` for more
 details on this parameter.
 
 The definition of a successful request is a :ref:`configurable parameter
-<envoy_v3_api_msg_extensions.filters.http.admission_control.v3alpha.AdmissionControl.SuccessCriteria>`
+<envoy_v3_api_msg_extensions.filters.http.admission_control.v3.AdmissionControl.SuccessCriteria>`
 for both HTTP and gRPC requests.
 
 Aggression

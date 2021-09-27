@@ -4,8 +4,8 @@
 #include <memory>
 
 #include "envoy/network/address.h"
-#include "envoy/service/ext_proc/v3alpha/external_processor.grpc.pb.h"
-#include "envoy/service/ext_proc/v3alpha/external_processor.pb.h"
+#include "envoy/service/ext_proc/v3/external_processor.grpc.pb.h"
+#include "envoy/service/ext_proc/v3/external_processor.pb.h"
 
 #include "grpc++/server.h"
 #include "gtest/gtest.h"

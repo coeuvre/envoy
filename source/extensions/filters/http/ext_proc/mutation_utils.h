@@ -2,7 +2,7 @@
 
 #include "envoy/buffer/buffer.h"
 #include "envoy/http/header_map.h"
-#include "envoy/service/ext_proc/v3alpha/external_processor.pb.h"
+#include "envoy/service/ext_proc/v3/external_processor.pb.h"
 
 #include "source/common/common/logger.h"
 

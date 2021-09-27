@@ -1,4 +1,4 @@
-#include "envoy/service/ext_proc/v3alpha/external_processor.pb.h"
+#include "envoy/service/ext_proc/v3/external_processor.pb.h"
 
 #include "source/extensions/filters/http/ext_proc/ext_proc.h"
 

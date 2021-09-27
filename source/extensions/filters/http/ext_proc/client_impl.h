@@ -5,7 +5,7 @@
 
 #include "envoy/config/core/v3/grpc_service.pb.h"
 #include "envoy/grpc/async_client_manager.h"
-#include "envoy/service/ext_proc/v3alpha/external_processor.pb.h"
+#include "envoy/service/ext_proc/v3/external_processor.pb.h"
 #include "envoy/stats/scope.h"
 
 #include "source/common/grpc/typed_async_client.h"

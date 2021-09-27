@@ -5,10 +5,10 @@
 
 #include "envoy/buffer/buffer.h"
 #include "envoy/event/timer.h"
-#include "envoy/extensions/filters/http/ext_proc/v3alpha/processing_mode.pb.h"
+#include "envoy/extensions/filters/http/ext_proc/v3/processing_mode.pb.h"
 #include "envoy/http/filter.h"
 #include "envoy/http/header_map.h"
-#include "envoy/service/ext_proc/v3alpha/external_processor.pb.h"
+#include "envoy/service/ext_proc/v3/external_processor.pb.h"
 
 #include "source/common/buffer/buffer_impl.h"
 #include "source/common/common/logger.h"

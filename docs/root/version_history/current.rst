@@ -17,11 +17,11 @@ Incompatible Behavior Changes
   :ref:`contrib images <install_contrib>`.
 * contrib: the :ref:`MySQL proxy filter <config_network_filters_mysql_proxy>` has been moved to
   :ref:`contrib images <install_contrib>`.
-* dns_filter: :ref:`dns_filter <envoy_v3_api_msg_extensions.filters.udp.dns_filter.v3alpha.DnsFilterConfig>`
+* dns_filter: :ref:`dns_filter <envoy_v3_api_msg_extensions.filters.udp.dns_filter.v3.DnsFilterConfig>`
   protobuf fields have been renumbered to restore compatibility with Envoy
   1.18, breaking compatibility with Envoy 1.19.0 and 1.19.1. The new field
   numbering allows control planes supporting Envoy 1.18 to gracefully upgrade to
-  :ref:`dns_resolution_config <envoy_v3_api_field_extensions.filters.udp.dns_filter.v3alpha.DnsFilterConfig.ClientContextConfig.dns_resolution_config>`,
+  :ref:`dns_resolution_config <envoy_v3_api_field_extensions.filters.udp.dns_filter.v3.DnsFilterConfig.ClientContextConfig.dns_resolution_config>`,
   provided they skip over Envoy 1.19.0 and 1.19.1.
   Control planes upgrading from Envoy 1.19.0 and 1.19.1 will need to
   vendor the corresponding protobuf definitions to ensure that the

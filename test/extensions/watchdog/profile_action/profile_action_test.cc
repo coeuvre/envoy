@@ -3,7 +3,7 @@
 #include "envoy/common/time.h"
 #include "envoy/config/bootstrap/v3/bootstrap.pb.h"
 #include "envoy/event/dispatcher.h"
-#include "envoy/extensions/watchdog/profile_action/v3alpha/profile_action.pb.h"
+#include "envoy/extensions/watchdog/profile_action/v3/profile_action.pb.h"
 #include "envoy/filesystem/filesystem.h"
 #include "envoy/server/guarddog_config.h"
 #include "envoy/thread/thread.h"
